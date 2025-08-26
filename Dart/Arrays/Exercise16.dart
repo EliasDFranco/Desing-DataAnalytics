@@ -17,13 +17,16 @@ void main() {
     1
   ];
 
-  int monto = 100;
+  int monto = 1000000;
+  print("Desglose de $monto:");
 
   for (int x in dineroDesglose) {
     int cantidad = monto ~/ x;
-    if (cantidad < 0) {
-      monto % x;
+    if (cantidad > 0) {
+      print("$cantidad de $x");
+      monto = monto % x;
     }
   }
-  print("$dineroDesglose");
 }
+
+// Check

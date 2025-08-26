@@ -17,7 +17,8 @@ void main() {
     185,
     444
   ];
-  print("Los elementos ordenados del final al primero son: $num[]");
+  print(
+      "Los elementos ordenados del final al primero son: ${num.reversed.toList()}");
 }
 
 void rotacion(List<int> num) {
@@ -28,3 +29,5 @@ void rotacion(List<int> num) {
   }
   num[0] = elementoFinal;
 }
+
+// Check 

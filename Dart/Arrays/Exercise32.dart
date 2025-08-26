@@ -1,15 +1,15 @@
 import 'dart:io';
 
-void main(){
+void main() {
+  stdout.write("Ingrese una palabra, porfavor");
+  String? ingresarPalabra = stdin.readLineSync();
 
-stdout.write("Ingrese una palabra, porfavor");
-String? ingresarPalabra = stdin.readLineSync();
+  if (ingresarPalabra != null) {
+    String? palabraMayuscula = ingresarPalabra.toUpperCase();
 
-if ( ingresarPalabra != null){
-  String? palabraMayuscula = ingresarPalabra.toUpperCase();
+    List<String> vectorWord = palabraMayuscula.split("");
 
-  List<String> vectorWord = palabraMayuscula.split("");
-
-  print("La palabra que ingreso es $ingresarPalabra | La palabra en mayusculas es. $palabraMayuscula y el almacenado en vector: $vectorWord");
+    print(
+        "La palabra que ingreso es $ingresarPalabra | La palabra en mayusculas es. $palabraMayuscula y el almacenado en vector: $vectorWord");
   }
 }
