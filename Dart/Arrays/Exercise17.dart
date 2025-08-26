@@ -29,5 +29,3 @@ void rotacion(List<int> num) {
   }
   num[0] = elementoFinal;
 }
-
-// Check 

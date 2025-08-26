@@ -23,5 +23,3 @@ void main() {
   }
   print("El vector sin repeticiones es: $numerosB");
 }
-
-// Check
