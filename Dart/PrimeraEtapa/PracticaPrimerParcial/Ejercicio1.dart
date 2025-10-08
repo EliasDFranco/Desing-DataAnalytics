@@ -30,7 +30,7 @@ void main() {
   } else {
     // En este bucle for recorremos el vector y dependiendo si es par o impar, se agrega en un  Vector A o Vector B
     for (int x = 0; x < vectorC.length; x++) {
-      if (vectorC[x]! % 2 == 0) {
+      if (vectorC[x] % 2 == 0) {
         vectorA.add(vectorC[x]);
       } else {
         vectorB.add(vectorC[x]);
