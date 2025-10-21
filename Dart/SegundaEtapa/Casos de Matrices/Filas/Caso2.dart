@@ -11,15 +11,15 @@ void main() {
   int numerito = 0;
 
   for (int x = 0; x < f; x++) {
-    for (int y = c - 1 ; y >= 0; y--) {
+    for (int y = c - 1; y >= 0; y--) {
       numerito++;
       Matriz[x][y] = numerito;
     }
   }
   // Impresión de la matriz
 
-  for(int x = 0; x < f; x++){
-    for(int y = 0; y < c; y++){
+  for (int x = 0; x < f; x++) {
+    for (int y = 0; y < c; y++) {
       stdout.write("${Matriz[x][y]}!");
     }
     print(" ");

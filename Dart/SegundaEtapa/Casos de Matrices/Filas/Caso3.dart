@@ -18,8 +18,8 @@ void main() {
   }
   // Impresión de la matriz
 
-  for(int x = 0; x < f; x++){
-    for(int y = 0; y < n; y++){
+  for (int x = 0; x < f; x++) {
+    for (int y = 0; y < n; y++) {
       stdout.write("Matriz impresa: ${Matriz[x][y]}!");
     }
     print(" ");
